@@ -1,12 +1,53 @@
-# React + Vite
+📚 Book Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Book Finder App built with React + Vite + TailwindCSS, using the Open Library API.
+This app allows users to search for books by title and view details such as cover image, author(s), and first publish year.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+🔗 https://bookfinder-xi.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+✨ Features
+🔎 Search Books by Title
+🖼️ View Cover Image, Title, Author, Publish Year
+⚡ Responsive Design (mobile-friendly)
+🚫 Error Handling (shows message when no results found)
+⏳ Loading Indicator during API calls
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🛠️ Tech Stack
+Frontend: React (Vite)
+Styling: TailwindCSS
+API: Open Library Search API
+Deployment: StackBlitz / Netlify / Vercel
+
+📸 Screenshots
+👉 (Add your screenshots here after running the app locally)
+Home Page:
+
+⚙️ Installation & Setup
+Clone the repo and install dependencies:
+git clone https://github.com/<your-username>/book-finder.git
+cd book-finder
+npm install
+
+Start development server:
+npm run dev
+Build for production:
+npm run build
+Preview production build:
+npm run preview
+
+📡 API Usage
+Example API Call:
+https://openlibrary.org/search.json?title=harry%20potter
+
+👨‍💻 Author
+Name: Alex’s Helper (You 😎)
+Occupation: College Student’s Developer
+
+GitHub: Your Profile
+
+📜 License
+
+This project is licensed under the MIT License – free to use, modify, and share.
